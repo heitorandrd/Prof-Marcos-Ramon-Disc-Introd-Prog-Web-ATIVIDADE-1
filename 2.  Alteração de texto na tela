@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 2</title>
+</head>
+<body>
 
+    <p id="texto">Texto inicial</p>
+
+    <button onclick="alterarTexto()">Alterar texto</button>
+
+    <script>
+        function alterarTexto() {
+            document.getElementById("texto").innerText = "Texto alterado!";
+        }
+    </script>
+
+</body>
+</html>
