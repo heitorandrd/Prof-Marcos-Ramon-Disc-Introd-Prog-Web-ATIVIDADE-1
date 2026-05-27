@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 4</title>
+</head>
+<body>
 
+    <button onclick="contar()">Mostrar números</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function contar() {
+            let numeros = "";
+
+            for (let i = 1; i <= 10; i++) {
+                numeros += i + "<br>";
+            }
+
+            document.getElementById("resultado").innerHTML = numeros;
+        }
+    </script>
+
+</body>
+</html>
