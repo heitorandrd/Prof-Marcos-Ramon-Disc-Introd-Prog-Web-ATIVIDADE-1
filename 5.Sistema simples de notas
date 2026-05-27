@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 5</title>
+</head>
+<body>
+
+    <input type="number" id="nota" placeholder="Digite a nota">
+
+    <button onclick="verificarNota()">Verificar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function verificarNota() {
+            let nota = document.getElementById("nota").value;
+
+            if (nota >= 6) {
+                document.getElementById("resultado").innerText = "Aprovado";
+            } else {
+                document.getElementById("resultado").innerText = "Reprovado";
+            }
+        }
+    </script>
+
+</body>
+</html>
